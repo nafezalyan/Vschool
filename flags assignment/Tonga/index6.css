@@ -1,0 +1,25 @@
+
+body {
+    background-color:white;
+}
+.Tonga-flag {
+    position: absolute;
+    background-color:red;
+
+
+
+    
+}
+.Tonga-flag:before {
+    position: absolute;
+    content:"\271A";font-size: 128px;
+    color: red;
+    height: 50%;
+    width: 40%;
+    background-color:white;
+    top:0;
+    left:0;
+   
+}
+    
+

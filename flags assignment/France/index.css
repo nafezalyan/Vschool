@@ -1,0 +1,29 @@
+ 
+body {
+    background-color:white;
+}
+.france-flag {
+    padding: 33.33%;
+    position: nrelative;
+    background-color: white;
+    
+}
+.france-flag:before {
+    position: absolute;
+    content: "";
+    width: 33.33%;
+    height: 100%;
+    background-color:blue;
+    top: 0;
+    left:0;
+}
+
+.france-flag::after {
+    position: absolute;
+    content: "";
+    width: 33.33%;
+    height: 100%;
+    background-color:red;
+    top: 0;
+    right:0;
+}

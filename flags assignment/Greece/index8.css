@@ -1,0 +1,38 @@
+
+body {
+    background-color:white;
+}
+.Greece-flag {
+    position: absolute;
+    margin: auto;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    width:270px;
+    height: 180px;
+    background-color: blue;
+}
+.Greece-flag:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 100%;
+    background-color: white;
+    top: 20px;
+    left:0;
+    box-shadow: 0 40px 0 0 white, 0 80px 0 0 white, 0 120px 0 0 white;
+}
+
+.Greece-flag::after {
+    position: absolute;
+    content: "\271A";
+    color:white; font-size: 115px;
+    vertical-align: middle;
+    
+    height: 55%;
+    width: 40%;
+    background-color: blue;
+    top: 0;
+    left:0;
+}

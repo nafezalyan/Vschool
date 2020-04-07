@@ -1,0 +1,29 @@
+
+body {
+    background-color: white;
+}
+.Swede-flag {
+    padding: 20%;
+    position: relative;
+    background-color: blue;
+    
+}
+.Swede-flag:before {
+    position: absolute;
+    content: "";
+    height: 20%;
+    width: 100%;
+    background-color: yellow;
+    top: 40%;
+    left:0;
+}
+
+.Swede-flag::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 12.5%;
+    background-color: yellow;
+    top: 0;
+    left:31.25%;
+}

@@ -1,0 +1,29 @@
+
+body {
+    background-color: white;
+}
+.Mada-flag {
+    padding: 50%;
+    position: nrelative;
+    background-color: green;
+    
+}
+.Mada-flag:before {
+    position: absolute;
+    content: "";
+    height: 50%;
+    width: 100%;
+    background-color:red;
+    top: 0;
+    left:33%;
+}
+
+.Mada-flag::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 33.33%;
+    background-color: white;
+    top: 0;
+    left:0;
+}

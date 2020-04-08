@@ -1,0 +1,108 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 80px 80px 80px;
+    grid-gap: 3px;
+}
+.pink {
+    background-color: #F5C6D6;
+    border-radius: 10px;
+    grid-column: 1/-1;
+}
+.darkPink {
+    background-color: #EE2E84;
+    border-radius: 10px;
+    grid-column: 1/2;
+}
+.darkPink2 {
+    background-color: #EE2E84;
+    border-radius: 10px;
+    grid-column: 2/3;
+}
+.darkPink3 {
+    background-color: #EE2E84;
+    border-radius: 10px;
+    grid-column: 3/4;
+}
+.darkPink4 {
+    background-color: #EE2E84;
+    border-radius: 10px;
+    grid-column: 4/-1;
+}
+.blue{
+    background-color:  #85cfd8; 
+    border-radius: 10px;
+    grid-column: 1/3;
+}
+.blue2 {
+    background-color: #85cfd8;
+    border-radius: 10px;
+    grid-column: 3/-1;
+}
+.green {
+    background-color: #8DC63F;
+    border-radius: 10px;
+    grid-column: 1/4;
+}
+
+.brown {
+    background-color: #E76E34;
+    border-radius: 10px;
+    grid-column: 4/-1;   
+}
+
+
+@media screen and (max-width: 768px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 80px 80px 80px 80px 80px 80px 80px 80px 80px;
+        grid-gap: 3px;
+    }
+    .pink {
+        background-color: #F5C6D6;
+        border-radius: 10px;
+        grid-column: 1/-1;
+    }
+    .darkPink {
+        background-color: #EE2E84;
+        border-radius: 10px;
+        grid-column: 1/-1;
+    }
+    .darkPink2 {
+        background-color: #EE2E84;
+        border-radius: 10px;
+        grid-column: 1/-1;
+    }
+    .darkPink3 {
+        background-color: #EE2E84;
+        border-radius: 10px;
+        grid-column: 1/-1;
+    }
+    .darkPink4 {
+        background-color: #EE2E84;
+        border-radius: 10px;
+        grid-column: 1/-1;
+    }
+    .blue{
+        background-color:  #85cfd8; 
+        border-radius: 10px;
+        grid-column: 1/-1;
+    }
+    .blue2 {
+        background-color: #85cfd8;
+        border-radius: 10px;
+        grid-column: 1/-1;
+    }
+    .green {
+        background-color: #8DC63F;
+        border-radius: 10px;
+        grid-column: 1/-1;
+    }
+    
+    .brown {
+        background-color: #E76E34;
+        border-radius: 10px;
+        grid-column: 1/-1;   
+    }
+}

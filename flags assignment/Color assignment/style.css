@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box; 
+    font-size: 0px;
+}
+
+@media only screen and (max-width:768px) {
+.grid-container {
+        display: grid; 
+        margin: auto;
+        height: calc(40vw - 5px);
+        width: calc(60vw - 5px);
+        grid-template-areas:
+          'heada heada heada heada'
+          'headb headb headb headb'
+          'headc headc headc headc'
+          'headd headd headd headd'
+          'heade heade heade heade'
+          'headg headg headg headg'
+          'headh headh headh headh'
+          'headi headi headi headi'
+          'headj headj headj headj';
+        grid-gap: 15px;
+        background-color: white;
+        padding: 10px ;
+      }
+}
+
+    
+    

@@ -1,0 +1,68 @@
+body {
+    background-color:black;
+    padding:0;
+    margin:0;
+    
+}
+#main {
+    width: 1200px;
+    height: 1100px;
+    margin: 5px auto;
+    background-color: peachpuff;
+    border: solid 5px orangered;
+}
+h1 {
+    text-align: center;
+    font-family: "ariel";
+    font-size: 50px;
+    color:blue;
+    top:40px;
+    padding-top: 30px; 
+
+} 
+h2 {
+    text-align: center;
+    color: blue;
+    font-style: italic;
+    font-size: 30px;
+    
+}
+hr {
+    color: blue;
+    height: 2px;
+} 
+p {
+    text-align: left;
+    color:black;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 22px;
+    font-style: normal;
+  
+}
+header {
+    padding: top 10px;
+    min-height: 70px;
+}
+header a{
+    text-decoration: none;
+}
+header ul{
+    margin: 0;
+    padding:0;
+
+}
+header li{
+   
+    display:inline;
+    padding: 0 20px 0 20px;
+
+}
+header a:hover{
+    color: dimgray;
+    font-weight: bold;
+}
+header nav{
+    float: left;
+    margin-top: 10px;
+}

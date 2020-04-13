@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <form name="formcalc">
+        number 1: <input type="text" name="txtnum1">
+        <br>
+        number 2: <input type="text" name="txtnum2">
+        <br> 
+        result: <input type="text" name="txtres"><br>
+        <input type="button" value="Add" onClick="sumValues()"> 
+        <input type="button" value="Subtract" onClick="subtract()">
+        <input type="button" value="Multiply" onClick="multiplyBy()">
+        <input type="button" value="Divide" onClick="divideBy()">
+    </form>
+
+    <script src="calculator.js"></script>
+</body>
+</html>

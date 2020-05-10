@@ -83,19 +83,20 @@ var peopleArray = [
 //c)
 
 // var names=[]
-//   for(var i = 0; i <peopleArray.length; i++){
+//   for(var i = 0; i <peopleArray.length; i+=2){
 //     names.push(peopleArray[i].name);
-//     for (var j=0; j<names.length;j++) {
-//       names.splice(j+1,1);
-//       // console.log(names);
-//     }
+//     // for (var j=0; j<names.length;j++) {
+//     //   names.splice(j+1,1);
+//     //   // console.log(names);
+//     // }
 //   };
+//   console.log(names)
   
-//   // var occupations=[]
-  // for(var i = 0; i <peopleArray.length; i++){
-  //     occupations.push(peopleArray[i].occupation);
-  //     for (var i=1;i<occupations.length;i++) {
-  //         occupations.splice(i+1,1);
-  //         console.log(occupations);
-  //       }
-  // }   
+//   var occupations=[]
+//   for(var i = 1; i <peopleArray.length; i+=2){
+//       occupations.push(peopleArray[i].occupation);
+//       // for (var i=1;i<occupations.length;i++) {
+//       //     occupations.splice(i+1,1);
+//       // }
+//     }   
+//     console.log(occupations);
